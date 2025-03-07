@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer-container h3 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timer-container h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.timer-container button {
+  width: 150px;
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+}
+
+.timer-container button:hover {
+  cursor: pointer;
+}
